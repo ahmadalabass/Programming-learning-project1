@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تواصل معنا </title>
+    <style>
+        body {
+        font-family: Arial, sans-serif;
+        background-color: #f9f9f9;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        direction: rtl;
+    }
+    
+    .contact-container {
+        background-color: #ffffff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        width: 400px;
+    }
+    
+    h1 {
+        text-align: center;
+        color: #333333;
+    }
+    
+    p {
+        text-align: center;
+        color: #666666;
+        margin-bottom: 20px;
+    }
+    
+    .form-group {
+        margin-bottom: 15px;
+    }
+    
+    label {
+        display: block;
+        margin-bottom: 5px;
+        color: #333333;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #cccccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    
+    button {
+        width: 100%;
+        padding: 10px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    
+    button:hover {
+        background-color: #45a049;
+    }
+    
+    .contact-info {
+        margin-top: 20px;
+        text-align: center;
+    }
+    
+    .contact-info h2 {
+        margin-bottom: 10px;
+        color: #333333;
+    }
+    
+    .contact-info p {
+        margin: 5px 0;
+        color: #666666;
+    }
+    
+    </style>
+</head>
+<body>
+    <div class="contact-container">
+        <h1>
+            تواصل معنا 
+        </h1>
+        <p>نحن هنا لمساعدتك! إذا كان لديك أي استفسار أو تحتاج إلى دعم، لا تتردد في التواصل معنا.</p>
+        <form action="#">
+            <div class="form-group">
+                <label for="name">الاسم:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">البريد الإلكتروني:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="message">الرسالة:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+
+            <button type="submit">إرسال</button>
+        </form>
+        <div class="contact-info">
+            <h2>معلومات الاتصال</h2>
+            <p>البريد الإلكتروني: info@example.com</p>
+            <p>رقم الهاتف: 123-456-7890</p>
+            <p>العنوان: شارع البرمجة، المدينة التكنولوجية</p>
+        </div>
+
+    </div>
+</body>
+</html>
